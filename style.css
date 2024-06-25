@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.container-cards{
+    display: flex;
+    gap: 1rem;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-80%);
+    transition: all 2s;
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+.container-cards :nth-child(2){
+    transition-delay: 400ms;
+}
+
+.container-cards :nth-child(3){
+    transition-delay: 700ms;   
+}
