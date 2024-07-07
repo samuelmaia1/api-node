@@ -1,6 +1,6 @@
 import express from 'express'
-import { DatabaseMateriais, DatabaseClientes } from './database-postgres.js'
-import { Material } from './class.js'
+import { DatabaseMateriais, DatabaseClientes } from './src/services/database-postgres.js'
+import { Material } from './src/models/class.js'
 import cors from 'cors'
 
 const server = express()
