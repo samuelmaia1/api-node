@@ -1,5 +1,5 @@
 # Titulo
-API Node para gerenciamento de aluguéis. (Em produção)
+Gerenciamento de aluguéis (Back-end). (Em produção)
 
 ## Sobre o projeto
 Esta API é capaz de receber dados vindos de um formulário front-end para, não apenas cadastrar, mas também resgatar, editar e excluir registros em bancos de dados postgres. O front-end deste projeto também está neste perfil do github, confere lá!
