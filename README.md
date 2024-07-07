@@ -34,11 +34,11 @@ Estes são apenas os endpoints disponíveis atualmente, durante o período de pr
 ```markdown
 GET /materiais - Retorna todos os materiais vindos do banco de dados
 
-GET /materiais/:id - Retorna o material específico que contém este id
+GET /materiais/{MaterialId} - Retorna o material específico que contém este id
 
 POST /materiais/adicionar - Cria um novo recurso no banco de dados com o body que vem da requisição
 
-PUT /materiais/alugar/:id - Subtrai do estoque do material o valor vindo da requisição e substitui o registro por um atualizado
+PUT /materiais/alugar/{MaterialId} - Subtrai do estoque do material o valor vindo da requisição e substitui o registro por um atualizado
 
-DELETE /materiais/deletar/:id - Deleta o registro com este id
+DELETE /materiais/deletar/{MaterialId} - Deleta o registro com este id
 ```
