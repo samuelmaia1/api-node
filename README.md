@@ -18,6 +18,13 @@ O projeto surgiu a partir de uma necessidade pessoal para auxiliar o gerenciamen
 - Permitir o gerenciamento de clientes;
 - Hospedar um banco Postgres em alguma plataforma para não necessitar mais da Neon.
 
+## Pré-requisitos para funcionamento:
+- Ter o Node.js instalado na sua maquina.
+
 ## Instruções para execução
 1. Faça o clone do projeto;
-2. Abra a pasta raiz no terminal e digite o comando: npm run dev
+2. Abra a pasta raiz no terminal e digite o comando: 
+```
+npm run dev
+```
+3. Neste momento, o servidor estará funcionando na porta 3000 do localhost.
